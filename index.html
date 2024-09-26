@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Guilherme Gomes</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+<!-- Cabeçalho com navegação -->
+    <header>
+        <h1>Guilherme Gomes - Desenvolvedor Front-End</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#projetos">Meus Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#curriculo">Currículo</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre-mim">
+        <h2>Sobre Mim</h2>
+        <div class="sobre-mim-container">
+            <div class="sobre-mim-conteudo">
+                <p>Meu nome é Guilherme Gomes, sou acadêmico do 1º semestre de Desenvolvimento Web (tecnólogo) e aspirante a Desenvolvedor Front-End. Estou em constante aprendizado de tecnologias como HTML, CSS e JavaScript, e tenho paixão por criar interfaces interativas e responsivas. Atualmente, estou buscando meu primeiro estágio na área, onde possa aplicar os conhecimentos adquiridos e contribuir para projetos reais.</p>               
+                <p>No meu tempo livre, gosto de trabalhar em projetos pessoais de desenvolvimento web. Estou ansioso para colaborar em equipe e crescer como desenvolvedor em um ambiente dinâmico.</p>
+            </div>
+            <img src="images/foto perfil.webp" alt="Foto do Desenvolvedor">
+        </div>
+    </section>
+
+    <!-- Seção Meus Projetos -->
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projetos-galeria">
+            <div class="projeto-item" onclick="abrirProjeto('html/portfolio.html')">
+                <img src="images/portfolio.png" alt="Thumbnail portfólio">
+                <h3>Portfólio</h3>
+                <p>Projeto do meu portfólio.</p>
+            </div>
+            <div class="projeto-item" onclick="abrirProjeto('html/lista-de-tarefas.html')">
+                <img src="images/lista.png" alt="Thumbnail lista de tarefas">
+                <h3>Lista de Tarefas</h3>
+                <p>Projeto de uma lista de tarefas.</p>
+            </div>
+            <div class="projeto-item" onclick="abrirProjeto('html/calculadora.html')">
+                <img src="images/Calculadora.png" alt="Thumbnail calcaludora">
+                <h3>Calculadora</h3>
+                <p>Projeto de uma calcaludora básica.</p>
+            </div>
+            <div class="projeto-item" onclick="abrirProjeto('html/pedido-de-namoro.html')">
+                <img src="images/pedido de namoro.png" alt="Thumbnail pedido de namoro">
+                <h3>Pedido de Namoro</h3>
+                <p>Projeto para um pedido de namoro diferente e divertido.</p>
+            </div>
+            <div class="projeto-item" onclick="abrirProjeto('html/jogo-da-memoria.html')">
+                <img src="images/jogo da memoria.png" alt="jogo da memória">
+                <h3>Jogo da Memória</h3>
+                <p>Projeto de um jogo da memória.</p>
+            </div>
+            <div class="projeto-item" onclick="abrirProjeto('html/relogio.html')">
+                <img src="images/relogio.png" alt="Thumbnail relógio">
+                <h3>Relógio Digital</h3>
+                <p>Projeto de um relógio digital com calendário.</p>
+            </div>
+            <div class="projeto-item" onclick="abrirProjeto('html/site-simples.html')">
+                <img src="images/site simples.png" alt="Thumbnail site simples">
+                <h3>Site Simples</h3>
+                <p>Projeto de um site simples.</p>
+            </div>
+            <div class="projeto-item" onclick="abrirProjeto('html/formulario-de-cadastro.html')">
+                <img src="images/formulario-de-cadastro.png" alt="Thumbnail formulário de cadastro">
+                <h3>Formulário de Cadastro</h3>
+                <p>Projeto de um formulário de cadastro simples.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Habilidades -->
+    <section id="habilidades">
+        <h2>Minhas Habilidades e Conhecimentos</h2><br>
+        <ul class="habilidades-lista">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+<!-- Seção de Currículo -->
+<section id="curriculo">
+    <h2>Meu Currículo</h2>
+    <p>Disponibilizo aqui meu currículo completo com detalhes sobre minhas experiências, formação acadêmica e habilidades profissionais. Você pode visualizar ou baixar o currículo.</p>
+    <div class="curriculo-opcoes">
+        <a href="docs/Currículo de Guilherme.pdf" target="_blank" class="btn visualizar">Visualizar Currículo</a>
+        <a href="docs/Currículo de Guilherme.pdf" download class="btn baixar">Baixar Currículo</a>
+    </div>
+</section>
+
+    <!-- Seção de Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo via email ou redes sociais abaixo:</p>
+        <ul class="contato-lista">
+            <li>Email: <a href="mailto: gui14.1998@gmail.com">gui14.1998@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/guilherme-gomes-94267016a/" target="_blank">linkedin.com</a></li>
+            <li id="github-contact">GitHub: <a href="https://github.com/GuilhermeGomesDev" target="_blank">github.com/GuilhermeGomesDev</a></li>
+        </ul>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Guilherme Gomes - Desenvolvedor Front-End - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
